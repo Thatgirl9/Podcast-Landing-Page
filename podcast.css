@@ -30,6 +30,11 @@ body{
   background-color:var(--section1-bg-color);
 }
 
+section{
+  width:100%;
+  height:100%;
+}
+
 /* SECTION 1 */
 
 
