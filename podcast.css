@@ -694,6 +694,28 @@ header{
     align-self:end;
   }
 
+  .section-one-img{
+    margin-left:7em;
+    margin-top:5em;
+    position: absolute;
+    left:650px;
+  }
+
+  .frame-3{
+    position: absolute;
+    left:850px;
+    top:0;
+  }
+
+  .frame-img-4{
+    width:24em;
+    height:16em;
+    margin-right: 19em;
+    position: absolute;
+    top:350px;
+    left:660px;
+  } 
+
   .section2-con{
     margin-left:0;
   }
@@ -716,7 +738,7 @@ header{
   .check-div-grp2{
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 1.5em;
   }
 
@@ -737,16 +759,24 @@ header{
   gap:20px;
   }
 
+  .orange-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .con3-big-div{
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 0;
+  }
+
+  .footer-box{
     display:flex;
     justify-content: center;
     align-items: center;
   }
 
-  .footer-div{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
+  /*  */
 }
 
