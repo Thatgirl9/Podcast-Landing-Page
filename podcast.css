@@ -38,6 +38,7 @@ body{
   padding-bottom: 3.7em;
   display:flex;
   position: relative;
+  width:100%;
 }
 
 .podcast-container{
@@ -187,6 +188,7 @@ header{
   background-color: var(--section2-bg-color);
   padding-top: 0.2em;
   padding-bottom: 0.5em;
+  width:100%;
 }
 
 .section2-con{
@@ -421,6 +423,7 @@ header{
 
 .section-three{
   margin-bottom: 3em;
+  width:100%;
 }
 
 .section3-con3{
