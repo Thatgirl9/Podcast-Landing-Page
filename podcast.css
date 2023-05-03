@@ -448,6 +448,8 @@ header{
   margin-left:4em;
   margin-top:3.5em;
   display:flex;
+  justify-content: center;
+  align-items: center;
   gap:20px;
 }
 
@@ -519,6 +521,8 @@ header{
   border-radius: 30px;
   display:flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .con3-big1{
