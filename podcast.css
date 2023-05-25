@@ -613,12 +613,8 @@ section {
   }
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* SECTION 1 */
-
-  section {
-    width: 100%;
-  }
 
   .section-one {
     display: block;
@@ -631,10 +627,16 @@ section {
   .podcast-h2,
   .lorem-one {
     text-align: center;
+    width: 100%;
+  }
+
+  .image {
+    width: 20em;
   }
 
   .pro-div {
     text-align: center;
+    width: 100%;
   }
 
   /* SECTION 2 */
@@ -656,5 +658,9 @@ section {
     justify-content: none;
     align-items: none;
     margin-top: 2em;
+  }
+
+  .div-con1 {
+    width: 100%;
   }
 }
