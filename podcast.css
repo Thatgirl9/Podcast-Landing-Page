@@ -622,6 +622,8 @@ section {
 
   .section-one {
     display: block;
+    align-items: none;
+    justify-content: none;
     padding-bottom: 0;
     /* padding-bottom: 3.7em; */
   }
@@ -649,7 +651,10 @@ section {
   }
 
   .div-con {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
     margin-top: 2em;
   }
 }
