@@ -920,10 +920,11 @@ section {
     gap: 1.4em;
   }
 
-  .footer-div2,
-  .footer-div3 {
-    align-self: flex-start;
+  .footer-div2 {
     margin-top: 0;
-    margin-left: 1.2em;
+  }
+
+  .footer-div3 {
+    margin-top: 1em;
   }
 }
