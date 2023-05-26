@@ -632,14 +632,16 @@ section {
   }
 
   .podcast-header {
-    margin: 0.5em 0 0.9em 0.6em;
+    margin: 0.5em 0 1.2em 0.6em;
   }
 
   .podcast-h2 {
     line-height: 1.3;
+    margin-bottom: 1em;
   }
 
   .lorem-one {
+    margin-top: 0;
     font-size: 0.8rem;
   }
 
@@ -652,7 +654,8 @@ section {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-bottom: 1.9em;
+    margin-bottom: 2.2em;
+    margin-top: 1.9em;
   }
 
   .image {
@@ -672,18 +675,26 @@ section {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-top: 1em;
   }
 
   /* SECTION 2 */
 
   .section-two {
     padding-bottom: 0.8em;
-    /* padding-top: 0.2em;
-    padding-bottom: 0.5em; */
+    padding-top: 0.5em;
   }
 
   .section2-con1 {
     text-align: center;
+  }
+
+  .con1-h3 {
+    margin-bottom: 1em;
+  }
+
+  .section2-button1 {
+    margin-top: 1.9em;
   }
 
   .div-con {
@@ -691,8 +702,8 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    margin-top: 2em;
+    gap: 20px;
+    margin-top: 3em;
   }
 
   .div-con1 {
@@ -703,6 +714,11 @@ section {
     display: block;
     justify-content: none;
     position: relative;
+  }
+
+  .sound-icon {
+    margin-left: 1.5em;
+    width: 8em;
   }
 
   .con2-h3 {
@@ -733,32 +749,53 @@ section {
     flex-direction: none;
     align-items: none;
     justify-content: none;
+    margin-left: 1.2em;
+  }
+
+  .check-text {
+    font-size: 0.9rem;
   }
 
   .section-two-con3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    display: block;
+    justify-content: none;
+    align-items: none;
     margin-top: 2.2em;
     margin-bottom: 2.5em;
+    position: relative;
+    height: 10em;
   }
 
-  .section2-con-div {
+  /* .section2-con-div {
     align-self: self-start;
-  }
+  } */
 
   .section2--button {
-    margin-top: 0;
+    margin-top: 1.2em;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
   }
+
   .microphone-icon2,
   .microphone-icon1 {
-    align-self: baseline;
     margin-top: 0;
+  }
+
+  .microphone-icon1 {
+    position: absolute;
+    bottom: 0;
+    margin-left: 0.7em;
+    width: 4em;
+    height: 3.8em;
   }
 
   .microphone-icon2 {
     width: 6.3em;
     height: 6.3em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   /* SECTION 3 */
@@ -775,9 +812,9 @@ section {
     gap: 20px;
   }
 
-  /* .con3-div1 {
+  .con3-div1 {
     width: 100%;
-  } */
+  }
 
   .con3-big-div {
     display: flex;
